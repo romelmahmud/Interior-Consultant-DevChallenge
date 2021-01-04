@@ -310,7 +310,7 @@ footer p {
 @media (max-width: 730px) {
   .featured-container {
     position: relative;
-    padding-top: 9.5rem;
+    padding-top: 2.5rem;
     display: block;
   }
   ul li {
@@ -320,14 +320,39 @@ footer p {
   ul {
     right: 0px;
     height: 100vh;
-    top: 20vh;
+    top: 15vh;
     justify-content: flex-start;
+  }
+
+  .featured-content h2 {
+    font-family: "Lora";
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 1.3;
+    padding-bottom: 0.8em;
+  }
+
+  .featured-content p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    padding-bottom: 1.5em;
+  }
+  .cta {
+    margin-bottom: 1.6rem;
+  }
+
+  .cta a {
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 0.8755rem;
+    line-height: 1.06rem;
+    padding-right: 1em;
   }
 }
 
 .hidden {
   visibility: hidden;
-}
-.float {
-  float: right;
 }
