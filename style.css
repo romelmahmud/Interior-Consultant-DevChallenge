@@ -313,4 +313,21 @@ footer p {
     padding-top: 9.5rem;
     display: block;
   }
+  ul li {
+    opacity: 0;
+    height: 5%;
+  }
+  ul {
+    right: 0px;
+    height: 100vh;
+    top: 20vh;
+    justify-content: flex-start;
+  }
+}
+
+.hidden {
+  visibility: hidden;
+}
+.float {
+  float: right;
 }

@@ -3,6 +3,7 @@ const navSlide = () => {
    const burger = document.querySelector('.burger');
    const nav = document.querySelector('ul');
    const navLinks = document.querySelectorAll('ul li');
+   const logo = document.querySelector('.logo');
 
 
    burger.addEventListener('click', () => {
@@ -17,7 +18,8 @@ const navSlide = () => {
          }
          
       });
-      burger.classList.toggle('rotate')
+      burger.classList.toggle('rotate');
+      logo.classList.toggle('hidden');
 })
 
 }
