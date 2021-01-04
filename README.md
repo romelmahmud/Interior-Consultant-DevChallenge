@@ -56,7 +56,6 @@ I adjust settings for different break-point to make Webpage looks good different
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-(https://reactjs.org/)
 
 - [CSS]
 - [JavaScript]
