@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@400;700&family=Montserrat:wght@300;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #181719;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+header {
+  padding-top: 3.125rem;
+  height: 8vh;
+}
+.logo {
+  cursor: pointer;
+}
+
+.logo p {
+  font-family: "Crimson Pro", serif;
+  font-weight: 200;
+  font-size: 0.875rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+  border: 1px solid white;
+  padding: 0.5rem;
+}
+
+.main-conatiner {
+  max-width: 90%;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding-left: 5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.2;
+}
+
+ul li a:hover {
+  font-weight: 700;
+
+  transition: all 0.3s ease;
+}
+
+/* burger Icon */
+.burger {
+  margin-right: 50px;
+  display: none;
+  cursor: pointer;
+}
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 800px) {
+  ul {
+    position: absolute;
+    right: 0px;
+    height: 89vh;
+    top: 11vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    transform: translateY(-111%);
+    transition: transform 0.7s ease-in-out;
+  }
+  ul li {
+    opacity: 0;
+    height: 10%;
+  }
+
+  ul li a {
+    padding: 0;
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+.nav-active {
+  transform: translateY(0);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rotate .pati-1 {
+  transform: rotate(45deg) translate(5px, 6px);
+}
+.rotate .pati-2 {
+  opacity: 0;
+}
+.rotate .pati-3 {
+  transform: rotate(-45deg) translate(5px, -6px);
+}
+
+/* hero section */
+/
+
