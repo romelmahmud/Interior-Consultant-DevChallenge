@@ -115,6 +115,7 @@ ul li:hover {
   .burger {
     display: block;
   }
+  /* main-content */
 }
 
 .nav-active {
@@ -232,6 +233,7 @@ ul li:hover {
   font-weight: 700;
 }
 /* hero :end */
+
 /* footer */
 footer {
   margin-top: 14.5rem;
@@ -247,4 +249,68 @@ footer p {
 }
 .active {
   font-weight: 700;
+}
+
+/* responsive */
+
+@media (max-width: 1200px) {
+  .card {
+    max-width: 18.5rem;
+    padding: 1rem;
+    position: absolute;
+    bottom: -5.625rem;
+    right: 2rem;
+  }
+  .content {
+    width: 100%;
+  }
+  .content h3 {
+    font-size: 1.3rem;
+  }
+  .profile {
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .card {
+    max-width: 15rem;
+    padding: 1rem;
+    position: absolute;
+    bottom: -3rem;
+    right: 2rem;
+  }
+  .profile img {
+    max-width: 20%;
+    height: 20%;
+  }
+}
+
+@media (max-width: 800px) {
+  .card {
+    max-width: 13rem;
+    bottom: 4rem;
+  }
+  .content h3 {
+    font-size: 1rem;
+  }
+  .profile {
+    padding-bottom: 1rem;
+  }
+  .profile-content .name {
+    font-size: 0.75rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .profile-content .title {
+    font-size: 0.625rem;
+  }
+}
+
+@media (max-width: 730px) {
+  .featured-container {
+    position: relative;
+    padding-top: 9.5rem;
+    display: block;
+  }
 }
