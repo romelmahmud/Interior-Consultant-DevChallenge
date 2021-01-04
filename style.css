@@ -137,6 +137,7 @@ ul li a:hover {
 /* hero section */
 
 .featured-container {
+  position: relative;
   padding-top: 9.5rem;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -178,4 +179,12 @@ ul li a:hover {
   font-size: 1.125rem;
   line-height: 1.21;
   padding-right: 1em;
+}
+
+.card {
+  background: #181719;
+  padding: 1.5rem;
+  position: absolute;
+  top: 500px;
+  right: 65px;
 }
